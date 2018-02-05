@@ -1,13 +1,13 @@
 package bean;
 
 public class CourseBean {
-    private String id;
+    private long id;
     private String name;
-    private String credit;
+    private float credit;
     private String description;
     private String teacherid;
 
-    public String getId() {
+    public long getId() {
         return id;
     }
 
@@ -23,11 +23,11 @@ public class CourseBean {
         this.name = name;
     }
 
-    public String getCredit() {
+    public float getCredit() {
         return credit;
     }
 
-    public void setCredit(int credit) {
+    public void setCredit(float credit) {
         this.credit = credit;
     }
 
